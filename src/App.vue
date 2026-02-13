@@ -317,8 +317,8 @@ const profileImage = ref('https://scontent.fmnl35-1.fna.fbcdn.net/v/t1.6435-9/31
 const aboutImage = ref('https://scontent.fmnl35-1.fna.fbcdn.net/v/t39.30808-6/483526654_24155512354038892_4957505010177271580_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHrqrkF_XykLble-Ep8lTKtR-_5807YLatH7_nzTtgtq65xIKQtI0c7r61mnFbXBsFMDDLBIKTPcgoUTauEs4OJ&_nc_ohc=wE6r51TUOBwQ7kNvwFDSjnZ&_nc_oc=AdkGtA93iBKFxCPZcZp9v8KQgIt0cI8vl87SApQ4dZvfWP3rC9BlZvTQRx1L13AHSkc&_nc_zt=23&_nc_ht=scontent.fmnl35-1.fna&_nc_gid=d-UKbCcYC2QxBIEUQL-GmQ&oh=00_Aft3-lGy7V18f37t_nggqdt1xTN8VUTnY4TeuyzFbKZ6GQ&oe=6993971F')
 
 // ✅ RESUME LINKS - GOOGLE DRIVE PREVIEW + DOWNLOAD
-const resumePreviewLink = ref('https://drive.google.com/file/d/1QmPQ81FKyCMizC0PlFRrp6B_N5z2J2cR/view?usp=sharing')
-const resumeDownloadLink = ref('https://drive.google.com/uc?export=download&id=1QmPQ81FKyCMizC0PlFRrp6B_N5z2J2cR')
+const resumePreviewLink = ref('https://drive.google.com/file/d/1bRu1m4QFa7NMMT87B2K5cWttdLBH7nAU/view?usp=sharing')
+const resumeDownloadLink = ref('https://drive.google.com/file/d/1bRu1m4QFa7NMMT87B2K5cWttdLBH7nAU/view?usp=sharing')
 
 const skills = [
   { name: 'HTML5', icon: 'fab fa-html5' },
