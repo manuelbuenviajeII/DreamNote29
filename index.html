@@ -31,21 +31,8 @@
   <body>
     <div id="app"></div>
     
-    <!-- Dynamic path -->
-    <script>
-      // Determine kung tayo ay nasa production (GitHub Pages) o development
-      const isProduction = window.location.hostname !== 'localhost' && 
-                          window.location.hostname !== '127.0.0.1';
-      
-      // Set ang base path
-      window.BASE_PATH = isProduction ? '/DreamNote29' : '';
-      
-      // Load ang main.js gamit ang tamang path
-      const script = document.createElement('script');
-      script.type = 'module';
-      script.src = window.BASE_PATH + '/src/main.js';
-      document.body.appendChild(script);
-    </script>
+    <!-- ITO ANG TAMA: Simple lang, hindi na dynamic -->
+    <script type="module" src="/src/main.js"></script>
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
